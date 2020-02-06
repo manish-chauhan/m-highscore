@@ -1,9 +1,11 @@
 package grpc
 
 import (
-	pbhighscore "github.com/manish-chauhan/m-apis.git"
-	"google.golang.org/grpc"
+	"context"
+	pbhighscore "github.com/manish-chauhan/m-apis/v1"
+	"github.com/pkg/errors"
 	"github.com/rs/zerolog/log"
+	"google.golang.org/grpc"
 	"net"
 )
 
