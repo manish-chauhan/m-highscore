@@ -1,7 +1,10 @@
+package grpc
+
 import (
 	pbhighscore "github.com/manish-chauhan/m-apis.git"
 	"google.golang.org/grpc"
 	"github.com/rs/zerolog/log"
+	"net"
 )
 
 type Grpc struct {
